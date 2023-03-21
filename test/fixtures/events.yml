@@ -4,12 +4,12 @@ one:
   name: MyString
   location: MyString
   start_time: 2023-03-21 12:33:17
-  type: 
-  child_id: 1
+  event_type: soccer
+  child: one
 
 two:
   name: MyString
   location: MyString
   start_time: 2023-03-21 12:33:17
-  type: 
-  child_id: 1
+  event_type: baseball
+  child: one
