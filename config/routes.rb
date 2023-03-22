@@ -5,4 +5,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"
+
+  get "/children" => "children#index"
+  post "/children" => "children#create"
+
+  post "/events" => "events#create"
 end
