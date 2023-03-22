@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   post "/children" => "children#create"
 
   post "/events" => "events#create"
+  get "/events/:id" => "events#show"
 end
