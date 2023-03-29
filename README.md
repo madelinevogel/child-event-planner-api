@@ -1,24 +1,24 @@
-# README
+# Child Event Scheduler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Keep track of all your kids' events in one place and share with grandparents, aunts, uncles, and friends! 
 
-Things you may want to cover:
+Built using Ruby on Rails backend, [React.js frontend](https://github.com/madelinevogel/child-event-planner-frontend), React-datepicker, React-router-dom
 
-* Ruby version
+## Installation
 
-* System dependencies
+```bash
+bundle install
+rails db:create db:migrate db:seed
+```
 
-* Configuration
+## Usage
 
-* Database creation
+```bash
+rails server
+```
 
-* Database initialization
+You can test web requests as documented in the `requests.http` file.
 
-* How to run the test suite
+## Roadmap
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Future updates include each child having a calendar to show all events, the ability to combine all your kids' calendars in one, and send invites for other users to view your family's events.
