@@ -1,6 +1,6 @@
 class ChildrenController < ApplicationController
   def index
-    @children = Child.all
+    @children = current_user.children
     render :index
   end
 
@@ -10,6 +10,11 @@ class ChildrenController < ApplicationController
       image: params[:image],
       user_id: params[:user_id],
     )
+    render :show
+  end
+
+  def show
+    @child = Child.find_by(id: params[:id])
     render :show
   end
 end

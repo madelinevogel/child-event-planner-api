@@ -8,7 +8,9 @@ Rails.application.routes.draw do
 
   get "/children" => "children#index"
   post "/children" => "children#create"
+  post "/children/:id" => "children#show"
 
+  get "/events" => "events#index"
   post "/events" => "events#create"
   get "/events/:id" => "events#show"
 end

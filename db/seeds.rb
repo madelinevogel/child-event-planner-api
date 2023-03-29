@@ -18,7 +18,7 @@ User.create!(name: "Ann", email: "acockerill@test.com", password: "password", pa
 
 User.create!(name: "Dale", email: "dripa@test.com", password: "password", password_confirmation: "password")
 
-Child.create!(name: "Finn", image: "https://www.seekpng.com/png/detail/796-7960583_fin-shark-fin-clipart-transparent.png", user_id: 1)
+Child.create!(name: "Finn", image: "https://cff2.earth.com/uploads/2022/07/22091603/Fin-trade-scaled.jpg", user_id: 1)
 
 Child.create!(name: "Dash", image: "https://www.pngfind.com/pngs/m/139-1392514_incredibles-2-disney-pixar-dash-parr-png.png", user_id: 1)
 
